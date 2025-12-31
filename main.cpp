@@ -1,4 +1,4 @@
-// A registrar system demo
+// A registrar system demokkkkkkkkkkkkkkkkkk
 // File: main.cpp   Version: 1.0      License: AGPLv3
 // Created: Wei Gong open-src@qq.com      2025-12-12
 //
