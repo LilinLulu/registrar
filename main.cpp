@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 // A registrar system llllllll
+=======
+// A registrar system demokkkkkkkkkkkkkkkkkk
+>>>>>>> refs/remotes/origin/dev
 // File: main.cpp   Version: 1.0      License: AGPLv3
 // Created: Wei Gong open-src@qq.com      2025-12-12
 //
 // Description:
 //     Testing the registrar system
 
-// Change Log:
+// Change Log:ghcfhcfhcf
 //     [v1.1] Wei Gong open-src@qq.com   2025-12-12 17:57:41
 //         * simulating student course registration, viewing course enrollment lists
 //     [v1.2] Wei Gong open-src@qq.com   2025-12-12 18:07:17
