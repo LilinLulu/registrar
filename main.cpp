@@ -16,36 +16,36 @@ import std;
 int main()
 {
     // alias for static function Registrar::singleton
-    auto system = &Registrar::singleton;
+    auto sysLuLu = &Registrar::singleton;
 
-    system().initialize();
+    sysLuLu().initialize();
 
     // Simulate some students erolls in some courses
-    system().studentEnrollsInCourse("S001", "CS101");
-    system().studentEnrollsInCourse("S001", "CS201");
-    system().studentEnrollsInCourse("S001", "MATH101");
+    sysLuLu().studentEnrollsInCourse("S001", "CS101");
+    sysLuLu().studentEnrollsInCourse("S001", "CS201");
+    sysLuLu().studentEnrollsInCourse("S001", "MATH101");
 
-    system().studentEnrollsInCourse("S002", "CS101");
-    system().studentEnrollsInCourse("S002", "MATH101");
+    sysLuLu().studentEnrollsInCourse("S002", "CS101");
+    sysLuLu().studentEnrollsInCourse("S002", "MATH101");
 
-    system().studentEnrollsInCourse("S003", "CS201");
-    system().studentEnrollsInCourse("S003", "MATH101");
+    sysLuLu().studentEnrollsInCourse("S003", "CS201");
+    sysLuLu().studentEnrollsInCourse("S003", "MATH101");
 
 
-    system().studentEnrollsInCourse("S004", "CS101");
-    system().studentEnrollsInCourse("S004", "CS201");
+    sysLuLu().studentEnrollsInCourse("S004", "CS101");
+    sysLuLu().studentEnrollsInCourse("S004", "CS201");
 
-    system().studentEnrollsInCourse("S005", "CS201");
+    sysLuLu().studentEnrollsInCourse("S005", "CS201");
 
     std::println();
 
-    system().courseRoster("CS101");
-    system().courseRoster("CS201");
-    system().courseRoster("MATH101");
+    sysLuLu().courseRoster("CS101");
+    sysLuLu().courseRoster("CS201");
+    sysLuLu().courseRoster("MATH101");
 
-    system().studentSchedule("S001");
+    sysLuLu().studentSchedule("S001");
 
-    system().studentSchedule("S003");
+    sysLuLu().studentSchedule("S003");
 
     return 0;
 }
