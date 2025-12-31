@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// A registrar system llllllll
+=======
 // A registrar system demokkkkkkkkkkkkkkkkkk
+>>>>>>> refs/remotes/origin/dev
 // File: main.cpp   Version: 1.0      License: AGPLv3
 // Created: Wei Gong open-src@qq.com      2025-12-12
 //
